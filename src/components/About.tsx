@@ -100,10 +100,14 @@ function About() {
         </div>
         <div className="w-full md:w-1/2 p-4">
           <p className="block mb-4 text-lg">
-            Welcome! I'm Abdirahman Sadque, a Software Engineer focused on building responsive, 
-            user-friendly websites. I specialize in both front-end and back-end development, 
-            delivering optimized digital solutions. Additionally, I am skilled in Figma design, 
-            blending functionality with visual appeal.
+          I am a Software Engineer focused on building responsive,
+           user-friendly websites. I specialize in both front-end and 
+           back-end development, delivering optimized digital solutions. 
+           Additionally, I am skilled in Figma design, blending functionality 
+           with visual appeal. I am currently pursuing a degree in Computer Systems 
+           Engineering at Kiringaga University, which further enhances my understanding 
+           of system architectures and complex problem-solving.
+
           </p>
           <p className="block text-lg">
             I'm deeply enthusiastic about machine learning and its potential to solve complex 
@@ -112,6 +116,25 @@ function About() {
             on exciting projects!
           </p>
         </div>
+      </div>
+      
+      <div>
+        <div className="text-center bg-white py-10">
+          <h2 className="font-bold underline text-4xl">Education</h2>
+        </div>
+        <div className="flex fle-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-6">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/3">
+          <a href="https://student.kyu.ac.ke/"><h3 className="font-semi-bold text-2xl mb-2">Kirinyaga University</h3></a>
+           
+           <p className="text-lg text-gray-700 mb-3">Bachelar of science in Computer System Engineering</p>
+           <p className="text-gray-600">Year: From 2021 to 2025</p>
+         </div>
+         <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/3">
+         <a href="https://stlukeskhabukoshemixedsecondary.ach.ke/"><h3 className="font-semi-bold text-2xl mb-2">Khabukoshe secondary school</h3></a>
+           <p className="text-gray-600">Year: From 2017 to 2021</p>
+          </div>
+        </div>
+        
       </div>
     </div>
   );
