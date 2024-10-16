@@ -85,7 +85,7 @@ function About() {
       </div>
       
       <div className="bg-gray-100 py-10 px-6">
-      <h1 className="text-3xl font-bold text-center mb-8">Technologies I Am Conversant With</h1>
+      <h1 className="text-3xl font-bold text-center underline mb-8">Skills</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {techStack.map((tech, index) => (
           <div key={index} className="bg-white rounded-lg shadow-md p-6 text-center hover:scale-105">
