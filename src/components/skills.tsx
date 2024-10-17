@@ -1,4 +1,3 @@
-import React from 'react'
 import img1 from '../assets/ViclehireManagementSystem.png'
 import img2 from '../assets/todo.png'
 import img3 from '../assets/OnlineLibrary.png'
