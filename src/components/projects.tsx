@@ -3,7 +3,7 @@ import img2 from '../assets/todo.png'
 import img3 from '../assets/OnlineLibrary.png'
 import img4 from '../assets/Hotel.png'
 import img5 from '../assets/flex-grid-challange.png'
-function Skills() {
+function Projects() {
     
         const skill=[
             {name:"Vehicle Hire Management System",img:img1,link:"https://car-hire-frontend-two.vercel.app/", desc:"This is an efficient web-based platform that streamlines the vehicle rental process, allowing users to easily browse available vehicles, make bookings, and manage rentals, offering a seamless and user-friendly experience for both customers and administrators."},
@@ -18,7 +18,7 @@ function Skills() {
     
   return (
     <div>
-        <div className="bg-gray-100 py-10 px-6">
+        <div id='Projects' className="bg-gray-100 py-10 px-6">
             <h1 className="font-bold underline text-3xl text-center pb-8">
                 Projects
             </h1>
@@ -37,4 +37,4 @@ function Skills() {
   )
 }
 
-export default Skills
+export default Projects

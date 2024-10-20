@@ -31,7 +31,7 @@ function About() {
     { name: 'Drizzle-orm', logo: drizzle, description: 'A cutting-edge language model developed by OpenAI for natural language understanding.' },
   ];
   return (
-    <div className="bg-purple-200 mt-20">
+    <div id='' className="bg-purple-200 mt-20">
       {/* Main Heading */}
       <div className="text-center">
         <h1 className="text-4xl font-bold p-10">
@@ -60,7 +60,7 @@ function About() {
         <h2 className="text-3xl font-bold underline">About Me</h2>
       </div>
       
-      <div className="flex flex-col md:flex-row items-center p-6">
+      <div id='About' className="flex flex-col md:flex-row items-center p-6">
         <div className="w-full md:w-1/2">
           <img src={img1} alt="About image" className="max-w-full h-auto p-2 rounded-lg shadow-lg" />
         </div>
@@ -84,7 +84,7 @@ function About() {
         </div>
       </div>
       
-      <div className="bg-gray-100 py-10 px-6">
+      <div id='Skills' className="bg-gray-100 py-10 px-6">
       <h1 className="text-3xl font-bold text-center underline mb-8">Skills</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {techStack.map((tech, index) => (

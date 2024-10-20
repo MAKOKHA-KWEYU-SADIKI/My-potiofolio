@@ -1,10 +1,3 @@
-// function Body() {
-//   return (
-//     <div>Body</div>
-//   )
-// }
-
-// export default Body
 
 
 import { useState } from 'react'
@@ -14,9 +7,11 @@ import icon1 from '../assets/ml-icon.png'
 import ml2 from '../assets/ml2.png'
 const navigation = [
   { name: 'Home', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Projects', href: '#' },
-  { name: 'Technologies', href: '#' },
+  { name: 'About', href: '#About' },
+  { name: 'Projects', href: '#Projects' },
+  { name: 'Technologies', href: '#Skills' },
+  { name: 'Certifications', href: '#Certifications' },
+  { name: 'Contact Me', href: '#Contact' },
 ]
 
 export default function Header() {
