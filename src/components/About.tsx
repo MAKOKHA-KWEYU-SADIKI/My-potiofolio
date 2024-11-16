@@ -42,12 +42,9 @@ function About() {
       {/* Introduction Section */}
       <div className="flex flex-col md:flex-row items-center p-6">
         <div className="w-full md:w-1/2">
-          <p className="text-lg">
-            Hi, I'm Abdirahman Sadque, a full-stack Software Engineer passionate 
-            about creating optimized, user-friendly digital solutions. With expertise 
-            in both front-end and back-end development, and a strong interest in machine 
-            learning, I love tackling complex problems and exploring the latest trends 
-            in technology.
+          <p className="text-3xl">
+            Hi, I'm Sadque, a fourth year student from kirinyaga University 
+            pursuing Computer System Engineering.
           </p>
         </div>
         <div className="w-full md:w-1/2 mt-6 md:mt-0">
@@ -70,10 +67,7 @@ function About() {
            user-friendly websites. I specialize in both front-end and 
            back-end development, delivering optimized digital solutions. 
            Additionally, I am skilled in Figma design, blending functionality 
-           with visual appeal. I am currently pursuing a degree in Computer Systems 
-           Engineering at Kiringaga University, which further enhances my understanding 
-           of system architectures and complex problem-solving.
-
+           with visual appeal.
           </p>
           <p className="block text-lg">
             I'm deeply enthusiastic about machine learning and its potential to solve complex 
